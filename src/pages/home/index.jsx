@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <div className="grid grid-cols-4 rounded-2xl mb-[4%] gap-[30px] p-[30px] bg-gray-100">
-        {data?.products.map((el) => (
+        {data?.products?.map((el) => (
           <div key={el.id} className="rounded-2xl bg-white">
             <div
               onClick={() => navigate(`/product/${el.id}`)}
