@@ -1,5 +1,5 @@
 import React from "react";
-import not_found from "../../assets/not-found.png";
+import not_foundd from "../../assets/not_found.png";
 import { useNavigate } from "react-router-dom";
 const NotFound = () => {
   const navigate = useNavigate();
@@ -8,7 +8,7 @@ const NotFound = () => {
       <div className="h-[400px]">
         <img
           className="w-[100%] h-[100%] object-cover bg-center"
-          src={not_found}
+          src={not_foundd}
           alt=""
         />
       </div>
