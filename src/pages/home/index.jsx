@@ -6,7 +6,9 @@ const Home = () => {
   const navigate = useNavigate();
   const [data, setData] = useState(null);
   useEffect(() => {
-    axios.get(`https:dummyjson.com/products`).then((res) => setData(res.data));
+    axios
+      .get(`https://dummyjson.com/products`)
+      .then((res) => setData(res.data));
   }, []);
   return (
     <>

@@ -6,7 +6,7 @@ const Users = () => {
   const navigate = useNavigate();
   const [data, setData] = useState(null);
   useEffect(() => {
-    axios.get(`https:dummyjson.com/users`).then((res) => setData(res.data));
+    axios.get(`https://dummyjson.com/users`).then((res) => setData(res.data));
   }, []);
   return (
     <>

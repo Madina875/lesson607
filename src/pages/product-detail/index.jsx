@@ -9,7 +9,7 @@ const ProductDetail = () => {
 
   useEffect(() => {
     axios
-      .get(`https:dummyjson.com/products/${id}`)
+      .get(`https://dummyjson.com/products/${id}`)
       .then((res) => setData(res.data));
   }, []);
   console.log(data);

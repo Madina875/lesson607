@@ -9,7 +9,7 @@ const UserDetail = () => {
 
   useEffect(() => {
     axios
-      .get(`https:dummyjson.com/users/${id}`)
+      .get(`https://dummyjson.com/users/${id}`)
       .then((res) => setData(res.data));
   }, []);
   console.log(data);
